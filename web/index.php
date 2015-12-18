@@ -1,12 +1,12 @@
 <?php
 
-if($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_NAME'] == 'www.api.com' ){
+if($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_NAME'] == 'xxxxx.com' ){
     //表示本地测试
     defined('YII_DEBUG') or define('YII_DEBUG', true);
     defined('YII_ENV_LOCAL') or define('YII_ENV_LOCAL', 'local');
 }else
 
-if(count(explode('-1.wx.jaeapp.com', $_SERVER['SERVER_NAME'])) == 2|| $_SERVER['SERVER_NAME'] == 'gmapitest2015.ipicopico.com'){
+if(count(explode('-1.wx.jaeapp.com', $_SERVER['SERVER_NAME'])) == 2|| $_SERVER['SERVER_NAME'] == 'xxxxxx.com'){
     defined('YII_DEBUG') or define('YII_DEBUG', true);
     defined('YII_ENV') or define('YII_ENV', 'dev');
     defined('YII_ENV_LOCAL') or define('YII_ENV_LOCAL', 'test');
